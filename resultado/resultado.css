@@ -13,8 +13,6 @@
     --purple: #a729f5;
     --purple-hover: rgba(167, 41, 245, 0.7);
     --white: #fff;
-    --green: #26d782;
-    --red: #ee5454;
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
     --pontuacao-bg: #fff;
@@ -126,6 +124,7 @@ main h2 strong {
     gap: 16px;
     border-radius: 12px;
     margin-bottom: 12px;
+    box-shadow: var(--shadow);
 }
 
 .pontuacao strong {
@@ -150,6 +149,7 @@ main button {
     font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
+    box-shadow: var(--shadow);
 }
 
 main button:hover {
@@ -169,7 +169,7 @@ main button:hover {
         margin-block: 81px;
         max-width: 1160px;
         margin-inline: auto;
-    }
+    }""
 
     .assunto_icone {
         width: 56px;
@@ -233,4 +233,4 @@ main button:hover {
         padding: 24px;
         border-radius: 24px;
     }
-}""
+}
