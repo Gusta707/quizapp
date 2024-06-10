@@ -5,7 +5,7 @@ const body = document.querySelector("body")
 const assunto = localStorage.getItem("assunto")
 
 let quiz = {}
-let pontos = 8
+let pontos = 0
 let pergunta = 1
 let resposta = ""
 let idInputResposta = ""
